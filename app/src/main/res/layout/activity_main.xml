@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="yy.chen.mediaplay.activity.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tl_tab"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:navigationIcon="@drawable/btn_exit">
+
+        <include layout="@layout/title_bar"></include>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/dl_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <FrameLayout
+                android:id="@+id/fl_main"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_weight="1">
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_draw"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@drawable/base_bg"
+            >
+
+            <ImageView
+                android:id="@+id/iv_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/login_icon">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_header"
+                android:background="@android:color/transparent"
+                android:text="登录"/>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_header"
+                android:layout_toRightOf="@+id/iv_header"
+                android:background="@android:color/transparent"
+                android:text="注册"/>
+
+            <LinearLayout
+                android:id="@+id/ll_draw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/btn_logo"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/rg_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#11000000"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/rb_video"
+                        style="@style/bottom_tag_style"
+                        android:drawableTop="@drawable/local_video_seletor"
+                        android:text="本地视频"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rb_audio"
+                        style="@style/bottom_tag_style"
+                        android:drawableTop="@drawable/local_audio_seletor"
+                        android:text="本地音频"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rb_netvideo"
+                        style="@style/bottom_tag_style"
+                        android:drawableTop="@drawable/net_video_seletor"
+                        android:text="网络视频"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rb_netaudio"
+                        style="@style/bottom_tag_style"
+                        android:drawableTop="@drawable/net_audio_seletor"
+                        android:text="网络音频"
+                        />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:text="设置"/>
+
+            <Button
+                android:id="@+id/btn_eixt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:text="退出应用"/>
+
+        </RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

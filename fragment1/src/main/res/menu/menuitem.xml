@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/it_test"
+              android:showAsAction="always"
+              android:title="nihao">
+                <menu >
+                        <item android:id="@+id/it_inner"
+                              android:title="chenrongfa"></item>
+                        <item android:id="@+id/it_inner1"
+                              android:title="chenrongfa"></item>
+                </menu>
+        </item>
+        <item android:id="@+id/it_test1" android:title="tahao"
+            android:showAsAction="collapseActionView"
+            ></item><item android:id="@+id/it_test2"
+              android:showAsAction="always"
+                          android:icon="@android:drawable/bottom_bar"
+              android:title="nihao1"></item>
+        <item android:id="@+id/it_test3" android:title="hao1"
+            android:showAsAction="collapseActionView"
+            ></item>
+        <group android:id="@+id/gp_test">
+                <item android:id="@+id/it_gp" android:title="group"></item>
+                <item android:id="@+id/it_gp1" android:title="group"></item>
+        </group>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    >
+    <item
+        android:id="@+id/im_test"
+        android:icon="@drawable/btn_exit"
+        android:title="你好"></item>
+    <item
+        android:title="他好"
+        android:id="@+id/im_test1"
+
+        ></item>
+</menu>

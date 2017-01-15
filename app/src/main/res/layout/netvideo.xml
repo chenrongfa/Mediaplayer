@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+ <yy.chen.mediaplay.view.XListView
+     android:id="@+id/lv_netvideo"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+ </yy.chen.mediaplay.view.XListView>
+ <TextView
+     android:id="@+id/tv_found"
+     android:gravity="center"
+     android:layout_width="wrap_content"
+     android:layout_height="match_parent"
+     android:layout_marginLeft="100dp"
+     android:text="没有发现网络视频.."
+     android:layout_marginBottom="50dp"
+    android:textSize="20sp"
+     />
+ <ProgressBar
+     android:layout_centerInParent="true"
+     android:id="@+id/pb_progress"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     />
+</RelativeLayout>

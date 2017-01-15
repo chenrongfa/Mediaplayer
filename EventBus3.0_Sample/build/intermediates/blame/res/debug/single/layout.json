@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second.xml",
+        "source": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\layout\\activity_second.xml"
+    }
+]

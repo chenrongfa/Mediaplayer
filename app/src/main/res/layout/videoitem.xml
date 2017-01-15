@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="105dp">
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/video_default_icon"
+        android:id="@+id/iv_video"
+        />
+    <LinearLayout
+        android:id="@+id/ll_name"
+
+        android:layout_toRightOf="@id/iv_video"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_name"
+            android:text="视频名称"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:textSize="24sp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_time"
+            android:text="时长"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_size"
+        android:text="大小"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        />
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#44000000"
+        ></View>
+</RelativeLayout>

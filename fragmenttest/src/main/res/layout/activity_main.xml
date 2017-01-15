@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="yy.chen.fragmenttest.MainActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="addone"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"/>
+
+        <Button
+            android:text="replaceone"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"/>
+
+        <Button
+            android:text="replacetwo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"/>
+
+        <Button
+            android:text="addactivity"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"/>
+
+        <Button
+            android:text="addtwo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"/>
+
+    </LinearLayout><LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="reomve"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"/>
+
+        <Button
+            android:text="removetwo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button7"/>
+
+        <Button
+            android:text="detch"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button8"/>
+
+        <Button
+            android:text="detch"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button9"/>
+
+        <Button
+            android:text="addtwo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button10"/>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fr_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

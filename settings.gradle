@@ -1,0 +1,2 @@
+include ':app', ':myapplication', ':fragmenttest', ':fragment1', ':autocomplemtext', ':test', ':vitamio-sample', ':vitamio', ':xutils', ':xUtils3_sample', ':xListView', ':service', ':EventBus3.0_Sample', ':EventBus', ':sample', ':jcvideoplayer-lib', ':jcvideoplayer', ':localbroadreciever'
+include ':speechDemo'

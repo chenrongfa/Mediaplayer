@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                             android:orientation="vertical"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/login_icon"
+        android:id="@+id/iv_userheader"
+        android:background="@drawable/header_selector"
+        android:layout_alignLeft="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="25sp"
+            android:text="nihai"
+            android:textColor="#f6b26b"
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="15sp"
+            android:text="nihai"
+            android:textColor="#d22727"
+            android:id="@+id/tv_usertime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
+    <TextView
+        android:text="nihao"
+        android:textSize="25sp"
+        android:textColor="#ca9a9a"
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:scrollbars="vertical"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:src="@drawable/boy"
+        android:id="@+id/iv_showmes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+   <fm.jiecao.jcvideoplayer_lib.JCVideoPlayer
+       android:id="@+id/jc_player"
+       android:visibility="gone"
+       android:layout_width="wrap_content"
+       android:layout_height="200dp"
+       ></fm.jiecao.jcvideoplayer_lib.JCVideoPlayer>
+    <LinearLayout
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:text="20"
+        android:drawableLeft="@drawable/tv_clickup_selector"
+        android:id="@+id/btn_clickup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:text="20"
+        android:drawableLeft="@drawable/tv_clickdown_selector"
+        android:id="@+id/btn_clickdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:text="20"
+        android:drawableLeft="@drawable/tv_clickshare_selector"
+        android:id="@+id/btn_clickshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:text="20"
+        android:drawableLeft="@drawable/tv_clickdiscuss_selector"
+        android:id="@+id/btn_clickdiscuss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
+</LinearLayout>

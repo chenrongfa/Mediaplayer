@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yy.chen.mediaplay.view.TitleView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="#FF3097FD"
+              android:layout_height="55dp"
+               android:gravity="center_vertical"
+    >
+
+<!--<ImageView-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/ic_topbanner_logo"/>-->
+    <TextView
+        android:id="@+id/tv_search"
+        android:layout_marginLeft="10dp"
+        android:drawablePadding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="全文搜索"
+        android:clickable="true"
+        android:textColor="@drawable/tv_search_font"
+        android:drawableLeft="@drawable/tv_search_drawable"
+        android:textSize="10sp"
+        android:background="@drawable/tv_search_bg"
+        />
+    <RelativeLayout
+        android:id="@+id/rl_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_game"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_topbanner_game"
+            />
+        <ImageView
+            android:layout_alignRight="@+id/tv_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/game_dot"
+            />
+
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/tv_histroy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_topbanner_record"
+        android:layout_marginRight="10dp"
+        />
+</yy.chen.mediaplay.view.TitleView>
