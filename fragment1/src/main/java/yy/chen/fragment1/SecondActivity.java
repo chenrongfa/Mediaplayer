@@ -22,7 +22,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second);
 
-        button= (Button) findViewById(R.id.but12);
+//        button= (Button) findViewById(R.id.but12);
         Log.e(TAG, "onCreate: " );
     }
     public void click(View v){

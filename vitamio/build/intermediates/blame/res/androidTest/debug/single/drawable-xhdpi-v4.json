@@ -28,12 +28,12 @@
         "source": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_track_holo_dark.9.png"
     },
     {
-        "merged": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
-    },
-    {
         "merged": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\mediacontroller_pause.png",
         "source": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_pause.png"
+    },
+    {
+        "merged": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
     },
     {
         "merged": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scrubber_primary_holo.9.png",

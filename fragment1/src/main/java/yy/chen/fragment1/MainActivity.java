@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
 public class MainActivity extends AppCompatActivity {
      private FragmentManager fragmentManager;
     private FragmentTransaction fragmentTransaction;
@@ -151,10 +152,16 @@ public class MainActivity extends AppCompatActivity {
 //
 //        return true;
 //    }
-
     @Override
     protected void onDestroy() {
         super.onDestroy();
         Log.e(TAG, "onDestroy0: ");
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        Toast.makeText(this, "1", Toast.LENGTH_SHORT).show();
+        super.onBackPressed();
     }
 }

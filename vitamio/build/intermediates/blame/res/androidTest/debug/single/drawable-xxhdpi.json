@@ -24,12 +24,12 @@
         "source": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xxhdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi\\abc_text_cursor_mtrl_alpha.9.png",
-        "source": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xxhdpi\\abc_text_cursor_mtrl_alpha.9.png"
-    },
-    {
         "merged": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi\\abc_list_divider_mtrl_alpha.9.png",
         "source": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xxhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi\\abc_text_cursor_mtrl_alpha.9.png",
+        "source": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xxhdpi\\abc_text_cursor_mtrl_alpha.9.png"
     },
     {
         "merged": "I:\\AndroidStudioProjects\\MyApplication2\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
