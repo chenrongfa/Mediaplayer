@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\work\\mediaplay1\\MyApplication2\\EventBus3.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\work\\mediaplay1\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
         "source": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     }

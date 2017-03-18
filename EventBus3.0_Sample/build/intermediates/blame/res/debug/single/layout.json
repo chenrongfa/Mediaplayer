@@ -4,6 +4,14 @@
         "source": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "D:\\work\\mediaplay1\\MyApplication2\\EventBus3.0_Sample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second.xml",
+        "source": "D:\\work\\mediaplay1\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "D:\\work\\mediaplay1\\MyApplication2\\EventBus3.0_Sample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\work\\mediaplay1\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second.xml",
         "source": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\layout\\activity_second.xml"
     }

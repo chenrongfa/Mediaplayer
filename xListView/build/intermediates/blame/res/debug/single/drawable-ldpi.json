@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\work\\mediaplay1\\MyApplication2\\xListView\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
+        "source": "D:\\work\\mediaplay1\\MyApplication2\\xListView\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
         "merged": "I:\\AndroidStudioProjects\\MyApplication2\\xListView\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
         "source": "I:\\AndroidStudioProjects\\MyApplication2\\xListView\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
     }

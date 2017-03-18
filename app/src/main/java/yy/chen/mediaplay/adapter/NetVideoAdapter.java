@@ -7,7 +7,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import java.util.ArrayList;
 
@@ -60,18 +61,12 @@ public class NetVideoAdapter extends BaseAdapter {
         viewHolder.tv_name.setText(video.getMovieName());
         viewHolder.tv_title.setText(video.getVideoTitle());
         //glide
-       /* Glide.with(context).load(video.getCoverImg())
+         Glide.with(context).load(video.getCoverImg())
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .error(R.drawable.video_default)
                 .placeholder(R.drawable.video_default)
-                .override(195,136)
-                .into(viewHolder.iv_icon);*/
-        Picasso.with(context).load(video.getCoverImg())
-                .error(R.drawable.video_default)
-                .placeholder(R.drawable.video_default)
-//                .resize(195,136)
+                .centerCrop()
                 .into(viewHolder.iv_icon);
-
         return convertView;
     }
     class ViewHolder{
