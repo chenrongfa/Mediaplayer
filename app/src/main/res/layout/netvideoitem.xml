@@ -11,6 +11,7 @@
          <ImageView
              android:id="@+id/iv_icon"
              android:scaleType="centerCrop"
+             android:layout_gravity="center"
              android:src="@drawable/video_default"
              android:layout_width="100dp"
              android:layout_height="wrap_content"/>

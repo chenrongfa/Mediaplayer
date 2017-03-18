@@ -45,16 +45,19 @@
         android:id="@+id/tv_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
+<ScrollView
+    android:id="@+id/sv_images"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <ImageView
         android:scrollbars="vertical"
         android:layout_gravity="center"
-        android:visibility="gone"
         android:src="@drawable/boy"
+        android:scaleType="center"
         android:id="@+id/iv_showmes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+</ScrollView>
    <fm.jiecao.jcvideoplayer_lib.JCVideoPlayer
        android:id="@+id/jc_player"
        android:visibility="gone"
@@ -66,10 +69,11 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <TextView
+    <CheckBox
         android:layout_marginLeft="10dp"
         android:clickable="true"
         android:drawablePadding="10dp"
+        android:button="@null"
         android:text="20"
         android:drawableLeft="@drawable/tv_clickup_selector"
         android:id="@+id/btn_clickup"
@@ -78,9 +82,10 @@
         android:layout_weight="1"
         />
 
-    <TextView
+    <CheckBox
         android:layout_marginLeft="10dp"
         android:clickable="true"
+        android:button="@null"
         android:drawablePadding="10dp"
         android:text="20"
         android:drawableLeft="@drawable/tv_clickdown_selector"
@@ -89,9 +94,10 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         />
-    <TextView
+    <CheckBox
         android:layout_marginLeft="10dp"
         android:clickable="true"
+        android:button="@null"
         android:drawablePadding="10dp"
         android:text="20"
         android:drawableLeft="@drawable/tv_clickshare_selector"
@@ -101,9 +107,10 @@
         android:layout_weight="1"
         />
 
-    <TextView
+    <CheckBox
         android:layout_marginLeft="10dp"
         android:clickable="true"
+        android:button="@null"
         android:drawablePadding="10dp"
         android:text="20"
         android:drawableLeft="@drawable/tv_clickdiscuss_selector"

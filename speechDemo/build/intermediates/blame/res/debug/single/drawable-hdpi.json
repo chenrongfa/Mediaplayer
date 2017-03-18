@@ -1,9 +1,5 @@
 [
     {
-        "merged": "I:\\AndroidStudioProjects\\MyApplication2\\speechDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
-        "source": "I:\\AndroidStudioProjects\\MyApplication2\\speechDemo\\src\\main\\res\\drawable-hdpi\\icon.png"
-    },
-    {
         "merged": "D:\\work\\mediaplay1\\MyApplication2\\speechDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
         "source": "D:\\work\\mediaplay1\\MyApplication2\\speechDemo\\src\\main\\res\\drawable-hdpi\\icon.png"
     }

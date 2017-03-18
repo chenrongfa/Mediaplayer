@@ -374,6 +374,7 @@ public class VitamioPlay extends Activity implements View.OnClickListener {
    private SpeedUtil stl;//网速处理器
     private void initdata() {
         data1 = getIntent().getData();
+
         //接收会传过来的数据
         recieverInit();
         //网速

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true"
-          android:drawable="@drawable/shenhe_cai_pic_an"></item><item
-    android:state_pressed="false"
-    android:drawable="@drawable/shenhe_cai_pic_night"></item>
+    <item android:drawable="@drawable/shenhe_cai_pic_an"
+          android:state_checked="true"></item>
+
+    <item
+        android:drawable="@drawable/shenhe_cai_pic_night"
+        android:state_checked="false"></item>
 </selector>

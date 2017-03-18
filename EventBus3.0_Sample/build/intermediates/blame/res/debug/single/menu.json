@@ -4,14 +4,6 @@
         "source": "D:\\work\\mediaplay1\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\build\\intermediates\\res\\merged\\debug\\menu\\second.xml",
-        "source": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\menu\\second.xml"
-    },
-    {
-        "merged": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "I:\\AndroidStudioProjects\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\menu\\main.xml"
-    },
-    {
         "merged": "D:\\work\\mediaplay1\\MyApplication2\\EventBus3.0_Sample\\build\\intermediates\\res\\merged\\debug\\menu\\second.xml",
         "source": "D:\\work\\mediaplay1\\MyApplication2\\EventBus3.0_Sample\\src\\main\\res\\menu\\second.xml"
     }

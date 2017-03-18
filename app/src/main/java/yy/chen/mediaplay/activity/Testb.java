@@ -21,7 +21,8 @@ public class Testb extends Activity {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         Intent intent=new Intent();
-        intent.setDataAndType(Uri.parse("http://192.168.2.100:8080/pp.mp4"),"video/*");
+        intent.setAction("my.com.action");
+        intent.setDataAndType(Uri.parse("https://view.inews.qq.com/a/ZLV2017031801794603"),"video/*");
         startActivity(intent);
 
         return super.onTouchEvent(event);

@@ -228,6 +228,7 @@ public class FragmentNetVideo extends Fragment {
             Intent intent=new Intent(context,MyPlay.class);
             intent.setDataAndType(Uri.parse(data.get(position).getHightUrl()),"video/*");
             Bundle bundle=new Bundle();
+            intent.setAction("my.com.action");
             //且带当前数据和位置 ..全部
             bundle.putParcelableArrayList("data",data);
 //            bundle.putSerializable();

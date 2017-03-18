@@ -7,7 +7,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import java.util.List;
 
@@ -19,8 +20,19 @@ import yy.chen.mediaplay.bean.SearchTitle;
  */
 
 public class NetSearchAdapter extends BaseAdapter {
-   private List<SearchTitle.ItemsBean> trailer;
+      public List<SearchTitle.ItemsBean> getTrailer() {
+            return trailer;
+      }
+
+      public void setTrailer(List<SearchTitle.ItemsBean> trailer) {
+            this.trailer = trailer;
+      }
+
+      private List<SearchTitle.ItemsBean> trailer;
     private Context context;
+//      public void reFresh(List<SearchTitle.ItemsBean> trailer){
+//            if (trailer)
+//      }
 
 
 
@@ -62,17 +74,17 @@ public class NetSearchAdapter extends BaseAdapter {
         viewHolder.tv_name.setText(video.getItemTitle());
         viewHolder.tv_title.setText(video.getKeywords());
         //glide
-       /* Glide.with(context).load(video.getCoverImg())
+        Glide.with(context).load(video.getItemImage().getImgUrl1())
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .error(R.drawable.video_default)
                 .placeholder(R.drawable.video_default)
                 .override(195,136)
-                .into(viewHolder.iv_icon);*/
-        Picasso.with(context).load(video.getItemImage().getImgUrl1())
-                .error(R.drawable.video_default)
-                .placeholder(R.drawable.video_default)
-//                .resize(195,136)
                 .into(viewHolder.iv_icon);
+//        Picasso.with(context).load(video.getItemImage().getImgUrl1())
+//                .error(R.drawable.video_default)
+//                .placeholder(R.drawable.video_default)
+////                .resize(195,136)
+//                .into(viewHolder.iv_icon);
 
         return convertView;
     }

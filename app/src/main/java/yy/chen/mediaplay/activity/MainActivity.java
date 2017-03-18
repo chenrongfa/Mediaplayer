@@ -26,15 +26,16 @@ import java.util.List;
 
 import yy.chen.mediaplay.R;
 import yy.chen.mediaplay.base.BasePager;
+import yy.chen.mediaplay.fragment.AudioFragment;
 import yy.chen.mediaplay.fragment.FragmentNetAudio;
 import yy.chen.mediaplay.fragment.FragmentNetVideo;
 import yy.chen.mediaplay.fragment.VideoFragment;
-import yy.chen.mediaplay.fragment.AudioFragment;
 import yy.chen.mediaplay.util.ActivityCollector;
 
 //主页面
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
       private static final String TAG = "MainActivity";
+
       private boolean doubleClick;
       private Toolbar tl_tab;
       private Handler handler = new Handler() {
@@ -71,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
       private Fragment nextFragment;
 
       public MainActivity() {
-
+            Log.e(TAG, "MainActivity: " );
       }
 
       @Override
@@ -83,6 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             setContentView(R.layout.activity_main);
             ActivityCollector.activityList.add(this);
             initData();
+            Log.e(TAG, "onCreate: " );
 //        tl_tab.setLogo();
             setToolBar();
             initDrawer();
@@ -140,6 +142,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         return false;
                   }
             });
+      }
+
+
+      @Override
+      protected void onStop() {
+            super.onStop();
+            Log.e(TAG, "onStop() called");
+      }
+
+      @Override
+      protected void onPause() {
+            super.onPause();
+            Log.e(TAG, "onPause: " );
+      }
+
+      @Override
+      protected void onResume() {
+            super.onResume();
+            Log.e(TAG, "onResume: " );
+      }
+
+      @Override
+      protected void onStart() {
+            super.onStart();
+            Log.e(TAG, "onStart: ");
       }
 
       /**
@@ -247,6 +274,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (handler != null) {
                   handler.removeCallbacksAndMessages(null);
             }
+            Log.e(TAG, "onDestroy: ");
             ActivityCollector.activityList.remove(this);
             super.onDestroy();
       }

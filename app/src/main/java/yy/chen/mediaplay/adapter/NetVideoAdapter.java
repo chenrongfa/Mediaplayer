@@ -65,7 +65,7 @@ public class NetVideoAdapter extends BaseAdapter {
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .error(R.drawable.video_default)
                 .placeholder(R.drawable.video_default)
-                .centerCrop()
+                .fitCenter()
                 .into(viewHolder.iv_icon);
         return convertView;
     }

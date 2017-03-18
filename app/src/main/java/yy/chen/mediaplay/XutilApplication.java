@@ -8,6 +8,8 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Environment;
 
+import com.iflytek.cloud.SpeechConstant;
+import com.iflytek.cloud.SpeechUtility;
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.cache.memory.impl.UsingFreqLimitedMemoryCache;
@@ -33,6 +35,7 @@ public class XutilApplication extends Application {
         x.Ext.init(this);//初始化application
         x.Ext.setDebug(true);
         initUniversalImageLoader();
+        SpeechUtility.createUtility(this, SpeechConstant.APPID+"=58730099");
     }
     private void initUniversalImageLoader() {
         DisplayImageOptions options = new DisplayImageOptions.Builder()

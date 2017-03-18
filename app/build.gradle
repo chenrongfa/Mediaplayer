@@ -1,11 +1,19 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'chenrongfa'
+            keyPassword '123456'
+            storeFile file('I:/BaiduNetdiskDownload/keystore/chenrongfa.jks')
+            storePassword '123456'
+        }
+    }
     compileSdkVersion 22
     buildToolsVersion "23.0.2"
     defaultConfig {
         applicationId "yy.chen.mediaplay"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -15,6 +23,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
         }
     }
 }
@@ -31,10 +43,11 @@ dependencies {
     compile 'io.github.openfeign:feign-gson:9.4.0'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
-//    compile 'de.greenrobot:eventbus:2.4.0'
-//    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
-//        compile 'fm.jiecao:jiecaovideoplayer:5.3'
-        compile project(':jcvideoplayer-lib')
-//    compile project(':jcvideoplayer')
-
+    //    compile 'de.greenrobot:eventbus:2.4.0'
+    //    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
+    //        compile 'fm.jiecao:jiecaovideoplayer:5.3'
+    compile project(':jcvideoplayer-lib')
+    //    compile project(':jcvideoplayer')
+    compile files('libs/Msc.jar')
+    compile files('libs/Sunflower.jar')
 }
